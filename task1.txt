@@ -1,0 +1,29 @@
+# Command-List
+1. Войти под своим логинам/паролем
+https://yadi.sk/i/g8kUA_WP7OW-Ug
+# 2. Создать каталог для упражнений и перейти в него
+mkdir Epam_Devops_Scool && cd Epam_Devops_Scool/
+
+# 3. Создать файлы f1 и f2, а также директорию dir1 и в ней файл dir2
+mkdir dir1 && mkdir dir2 && touch f1 && touch f2
+
+# 4. Скопировать dir1 в dir2 со всеми файлами
+cp -r dir1 ./dir2/ && cp f1 f2 ./dir2/
+
+# 5. Удалить dir1
+rm -rf ./dir1
+
+# 6. Скопировать файл /etc/services в свой каталог
+cp /etc/services ~
+
+# 7. Вывести все строки, содержащие HTTP
+# 8. Посчитать количество строчек в нем
+cat services | grep http
+wc -l services
+cat services | grep http |  wc -l
+
+# 9. Исследовать команды more, less, tail, head на файле services
+# 10. Исследовать команды cal, bc
+# 11. Выяснить дату православной пасхи на 2051 год.
+
+
